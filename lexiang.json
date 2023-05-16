@@ -1,0 +1,549 @@
+{
+    "form": {
+        "style": {
+            "backgroundColor": "#f5f5f5"
+        },
+        "teamHeader": true
+    },
+    "schema": {
+        "type": "object",
+        "properties": {
+            "ap51acvgaek": {
+                "title": "标题",
+                "x-decorator": "ldDecorator",
+                "x-decorator-props": {
+                    "title": "标题",
+                    "titleFontSize": "18px",
+                    "titleFontWeight": true,
+                    "titleColor": "#333",
+                    "titleIcon": "vertical #008DFC",
+                    "titleAlign": "left",
+                    "more": "更多",
+                    "moreLink": "",
+                    "isShowIcon": false,
+                    "template": "card",
+                    "style": {
+                        "margin": "5px 10px 5px 10px",
+                        "padding": "0px",
+                        "borderRadius": "8px",
+                        "backgroundColor": "#9aba60",
+                        "borderWidth": "2px",
+                        "borderColor": "#e2534d",
+                        "boxShadow": "0 0 16px 0 #e2534d"
+                    },
+                    "titleVisible": false
+                },
+                "x-component": "title",
+                "x-component-props": {
+                    "title": "标题白哦提标识不是对手",
+                    "titleFontSize": "20px",
+                    "titleFontWeight": true,
+                    "titleColor": "#e2534d",
+                    "titleIcon": "star #008dfc",
+                    "titleAlign": "center",
+                    "more": "许昌不错v",
+                    "moreLink": "",
+                    "isShowIcon": true,
+                    "height": "48px"
+                },
+                "x-errors": [],
+                "x-designable-id": "ap51acvgaek",
+                "x-index": 0
+            },
+            "hzrje98w6y4": {
+                "title": "标题",
+                "x-decorator": "ldDecorator",
+                "x-decorator-props": {
+                    "title": "标题",
+                    "titleFontSize": "18px",
+                    "titleFontWeight": true,
+                    "titleColor": "#333",
+                    "titleIcon": "vertical #008DFC",
+                    "titleAlign": "left",
+                    "more": "更多",
+                    "moreLink": "",
+                    "isShowIcon": false,
+                    "template": "full",
+                    "style": {
+                        "margin": "5px 0px 5px 0px",
+                        "padding": "0px",
+                        "borderRadius": "50px",
+                        "backgroundColor": "#fff"
+                    },
+                    "titleVisible": false
+                },
+                "x-component": "title",
+                "x-component-props": {
+                    "title": "标题",
+                    "titleFontSize": "18px",
+                    "titleFontWeight": true,
+                    "titleColor": "#333",
+                    "titleIcon": "vertical #008DFC",
+                    "titleAlign": "left",
+                    "more": "更多",
+                    "moreLink": "",
+                    "isShowIcon": false,
+                    "height": "60px"
+                },
+                "x-errors": [],
+                "x-designable-id": "hzrje98w6y4",
+                "x-index": 1
+            },
+            "fqtu9czbo7m": {
+                "title": "图文导航",
+                "x-decorator": "ldDecorator",
+                "x-decorator-props": {
+                    "title": "标题",
+                    "titleFontSize": "18px",
+                    "titleFontWeight": true,
+                    "titleColor": "#333",
+                    "titleIcon": "vertical #008DFC",
+                    "titleAlign": "left",
+                    "more": "更多",
+                    "moreLink": "",
+                    "isShowIcon": false,
+                    "template": "full",
+                    "style": {
+                        "margin": "5px 0px 5px 0px",
+                        "padding": "10px 0px 10px 0px",
+                        "borderRadius": "0px",
+                        "backgroundColor": "#fff"
+                    },
+                    "titleVisible": true,
+                    "height": "40px"
+                },
+                "x-component": "imgTextNav",
+                "x-component-props": {
+                    "styleType": "rowImgText",
+                    "columnCount": 4,
+                    "customTitleStyle": {
+                        "fontSize": "14px",
+                        "fontWeight": false,
+                        "fontColor": "#333",
+                        "fontAlign": "left"
+                    },
+                    "isShowTitle": true,
+                    "navs": [
+                        {
+                            "id": "b92eb2bd6c9e420c924b90e7338c495d",
+                            "title": "导航1",
+                            "titleColor": "#333",
+                            "url": "",
+                            "picUrl": "",
+                            "customStyle": {
+                                "borderRadius": "4px",
+                                "borderWidth": "1px",
+                                "borderColor": "#EBEBEB",
+                                "backgroundColor": "transparent",
+                                "boxShadow": "none"
+                            }
+                        },
+                        {
+                            "id": "2d6294df06114c81ab4136e24ff60b62",
+                            "title": "导航2",
+                            "titleColor": "#333",
+                            "url": "",
+                            "picUrl": "",
+                            "customStyle": {
+                                "borderRadius": "4px",
+                                "borderWidth": "1px",
+                                "borderColor": "#EBEBEB",
+                                "backgroundColor": "transparent",
+                                "boxShadow": "none"
+                            }
+                        },
+                        {
+                            "id": "d2f14590c584468a9dd14e1944170b34",
+                            "title": "导航3",
+                            "titleColor": "#333",
+                            "url": "",
+                            "picUrl": "",
+                            "customStyle": {
+                                "borderRadius": "4px",
+                                "borderWidth": "1px",
+                                "borderColor": "#EBEBEB",
+                                "backgroundColor": "transparent",
+                                "boxShadow": "none"
+                            }
+                        },
+                        {
+                            "id": "e6fb7f5b5f5a4f44bc48b1f26c883cb1",
+                            "title": "导航4",
+                            "titleColor": "#333",
+                            "url": "",
+                            "picUrl": "",
+                            "customStyle": {
+                                "borderRadius": "4px",
+                                "borderWidth": "1px",
+                                "borderColor": "#EBEBEB",
+                                "backgroundColor": "transparent",
+                                "boxShadow": "none"
+                            }
+                        }
+                    ],
+                    "dataType": "specific",
+                    "datasource": {},
+                    "gap": "10px 10px",
+                    "isUseCustomStyle": true,
+                    "navHeight": 70,
+                    "customStyle": {
+                        "borderRadius": "4px",
+                        "borderWidth": "1px",
+                        "borderColor": "#EBEBEB",
+                        "backgroundColor": "transparent",
+                        "boxShadow": "none"
+                    },
+                    "imageSize": "100%",
+                    "imageHeight": 40,
+                    "imageShape": "default",
+                    "imageBorderRadius": "4px",
+                    "contentDirection": "row"
+                },
+                "x-errors": [],
+                "x-designable-id": "fqtu9czbo7m",
+                "x-index": 2
+            },
+            "8eqh8uik2fc": {
+                "title": "文档",
+                "x-decorator": "ldDecorator",
+                "x-decorator-props": {
+                    "title": "最新文档",
+                    "titleFontSize": "18px",
+                    "titleFontWeight": true,
+                    "titleColor": "#333",
+                    "titleIcon": "vertical #008DFC",
+                    "titleAlign": "left",
+                    "more": "更多",
+                    "moreLink": "https://lexiangla.com/docs?type=latest_docs&company_from=c34fd462872f11e990fd5254002f1020",
+                    "isShowIcon": true,
+                    "template": "full",
+                    "style": {
+                        "margin": "5px 0px 5px 0px",
+                        "padding": "10px 0px 10px 0px",
+                        "borderRadius": "0px",
+                        "backgroundColor": "#fff"
+                    },
+                    "isDynamic": true,
+                    "height": "40px",
+                    "titleVisible": false
+                },
+                "x-component": "docList",
+                "x-component-props": {
+                    "styleType": "picture",
+                    "displayField": [],
+                    "limit": 3,
+                    "dataType": "latest",
+                    "customList": [],
+                    "directory": {}
+                },
+                "x-errors": [],
+                "x-designable-id": "8eqh8uik2fc",
+                "x-index": 3
+            },
+            "spstkr4tnp1": {
+                "title": "搜索",
+                "x-decorator": "ldDecorator",
+                "x-decorator-props": {
+                    "title": "标题",
+                    "titleFontSize": "18px",
+                    "titleFontWeight": true,
+                    "titleColor": "#333",
+                    "titleIcon": "vertical #008DFC",
+                    "titleAlign": "left",
+                    "more": "更多",
+                    "moreLink": "",
+                    "isShowIcon": false,
+                    "template": "card",
+                    "style": {
+                        "margin": "5px 10px 5px 10px",
+                        "padding": "0px",
+                        "borderRadius": "8px",
+                        "backgroundColor": "#fff"
+                    },
+                    "titleVisible": false
+                },
+                "x-component": "searchBar",
+                "x-component-props": {
+                    "height": "36px",
+                    "placeholderTextColor": "#b3b3b3",
+                    "placeholderIconColor": "#b3b3b3",
+                    "dataType": "all",
+                    "appList": [],
+                    "team": null
+                },
+                "x-errors": [],
+                "x-designable-id": "spstkr4tnp1",
+                "x-index": 4
+            },
+            "kt13wdprpzk": {
+                "title": "图片",
+                "x-decorator": "ldDecorator",
+                "x-decorator-props": {
+                    "title": "标题",
+                    "titleFontSize": "18px",
+                    "titleFontWeight": true,
+                    "titleColor": "#333",
+                    "titleIcon": "vertical #008DFC",
+                    "titleAlign": "left",
+                    "more": "更多",
+                    "moreLink": "",
+                    "isShowIcon": false,
+                    "template": "full",
+                    "style": {
+                        "margin": "5px 0px 5px 0px",
+                        "padding": "0px",
+                        "borderRadius": "0px",
+                        "backgroundColor": "#fff"
+                    },
+                    "titleVisible": false,
+                    "height": "40px"
+                },
+                "x-component": "imageList",
+                "x-component-props": {
+                    "imageList": [
+                        {
+                            "id": 0,
+                            "url": "",
+                            "picUrl": "https://lexiangla.com/assets/551bba988fef11ed941d2a1ee4a4b2e7",
+                            "hotSpotList": []
+                        },
+                        {
+                            "id": "a8b53073b98d44189d94dabb16a83695",
+                            "url": "",
+                            "picUrl": "https://lexiangla.com/assets/019f65968ff311ed8eb6a23d8752adfc",
+                            "hotSpotList": []
+                        }
+                    ],
+                    "styleType": "custom"
+                },
+                "x-errors": [],
+                "x-designable-id": "kt13wdprpzk",
+                "x-index": 5
+            },
+            "ixk0b3ug8h6": {
+                "title": "列表",
+                "x-decorator": "ldDecorator",
+                "x-decorator-props": {
+                    "title": "列表组件",
+                    "titleFontSize": "18px",
+                    "titleFontWeight": true,
+                    "titleColor": "#333",
+                    "titleIcon": "vertical #008DFC",
+                    "titleAlign": "left",
+                    "more": "更多",
+                    "moreLink": "",
+                    "isShowIcon": false,
+                    "template": "card",
+                    "style": {
+                        "margin": "5px 10px 5px 10px",
+                        "padding": "10px 0px 10px 0px",
+                        "borderRadius": "8px",
+                        "backgroundColor": "#b5c3d2",
+                        "borderWidth": "2px",
+                        "borderColor": "#4e81bb",
+                        "boxShadow": "0 0 16px 0 #e2534d"
+                    },
+                    "isDynamic": true,
+                    "height": "40px",
+                    "titleVisible": true
+                },
+                "x-component": "datasourceList",
+                "x-component-props": {
+                    "styleType": "picture",
+                    "summary": true,
+                    "infoBar": true,
+                    "thumbnailPosition": "right",
+                    "order": "",
+                    "limit": 3,
+                    "dataType": "specific",
+                    "customList": [
+                        {
+                            "title": "列表标题3标题3标题3标题3标题3标题3标题3标题3",
+                            "summary": "内容摘要",
+                            "pic": "",
+                            "url": "",
+                            "field1": "作者 -",
+                            "field2": "浏览 -",
+                            "field3": "",
+                            "infoBarField": {}
+                        },
+                        {
+                            "title": "列表标题1",
+                            "summary": "内容摘要",
+                            "pic": "",
+                            "url": "",
+                            "field1": "作者 -",
+                            "field2": "浏览 -",
+                            "field3": "",
+                            "infoBarField": {}
+                        },
+                        {
+                            "title": "列表标题2",
+                            "summary": "内容摘要",
+                            "pic": "",
+                            "url": "",
+                            "field1": "作者 -",
+                            "field2": "浏览 -",
+                            "field3": "",
+                            "infoBarField": {}
+                        },
+                        {
+                            "title": "tyut",
+                            "summary": "erte",
+                            "pic": "",
+                            "url": "",
+                            "field1": "ert",
+                            "field2": "ert",
+                            "field3": "ert"
+                        }
+                    ],
+                    "datasource": {},
+                    "rank": false
+                },
+                "x-errors": [],
+                "x-designable-id": "ixk0b3ug8h6",
+                "x-index": 6
+            },
+            "lprq8arxfag": {
+                "title": "文档",
+                "x-decorator": "ldDecorator",
+                "x-decorator-props": {
+                    "title": "手动添加文档",
+                    "titleFontSize": "18px",
+                    "titleFontWeight": true,
+                    "titleColor": "#333",
+                    "titleIcon": "vertical #008DFC",
+                    "titleAlign": "left",
+                    "more": "",
+                    "moreLink": "",
+                    "isShowIcon": false,
+                    "template": "full",
+                    "style": {
+                        "margin": "5px 0px 5px 0px",
+                        "padding": "10px 0px 10px 0px",
+                        "borderRadius": "0px",
+                        "backgroundColor": "#fff"
+                    },
+                    "isDynamic": true,
+                    "height": "40px"
+                },
+                "x-component": "docList",
+                "x-component-props": {
+                    "styleType": "baseRank",
+                    "displayField": [],
+                    "limit": 3,
+                    "dataType": "specific",
+                    "customList": [],
+                    "directory": {}
+                },
+                "x-errors": [],
+                "x-designable-id": "lprq8arxfag",
+                "x-index": 7
+            },
+            "pkr07iy6d23": {
+                "title": "图文导航",
+                "x-decorator": "ldDecorator",
+                "x-decorator-props": {
+                    "title": "标题",
+                    "titleFontSize": "18px",
+                    "titleFontWeight": true,
+                    "titleColor": "#333",
+                    "titleIcon": "vertical #008DFC",
+                    "titleAlign": "left",
+                    "more": "更多",
+                    "moreLink": "",
+                    "isShowIcon": false,
+                    "template": "full",
+                    "style": {
+                        "margin": "5px 0px 5px 0px",
+                        "padding": "10px 0px 10px 0px",
+                        "borderRadius": "0px",
+                        "backgroundColor": "#fff"
+                    },
+                    "titleVisible": true,
+                    "height": "40px"
+                },
+                "x-component": "imgTextNav",
+                "x-component-props": {
+                    "styleType": "text",
+                    "columnCount": 4,
+                    "customTitleStyle": {
+                        "fontSize": "14px",
+                        "fontWeight": false,
+                        "fontColor": "#333",
+                        "fontAlign": "center"
+                    },
+                    "isShowTitle": true,
+                    "navs": [
+                        {
+                            "id": "bf9fe231277c4883a1c6e13cdebeec09",
+                            "title": "导航2",
+                            "titleColor": "#333",
+                            "url": "",
+                            "picUrl": "",
+                            "customStyle": {
+                                "borderRadius": "4px",
+                                "borderWidth": "1px",
+                                "borderColor": "#EBEBEB",
+                                "backgroundColor": "transparent",
+                                "boxShadow": "none"
+                            }
+                        },
+                        {
+                            "id": "e0709eac63824fa68aabb219aa5b66b0",
+                            "title": "导航1",
+                            "titleColor": "#333",
+                            "url": "",
+                            "picUrl": "https://lexiangla.com/assets/d2b5bbec8b3611ed8704e665db2fe0f3",
+                            "customStyle": {
+                                "borderRadius": "4px",
+                                "borderWidth": "1px",
+                                "borderColor": "#EBEBEB",
+                                "backgroundColor": "transparent",
+                                "boxShadow": "none"
+                            }
+                        },
+                        {
+                            "id": "9f2960a363d14006a3ff7a3fa179cbb5",
+                            "title": "导航3",
+                            "titleColor": "#333",
+                            "url": "",
+                            "picUrl": "",
+                            "customStyle": {
+                                "borderRadius": "4px",
+                                "borderWidth": "1px",
+                                "borderColor": "#EBEBEB",
+                                "backgroundColor": "transparent",
+                                "boxShadow": "none"
+                            }
+                        },
+                        {
+                            "id": "47d54773fe4f48f4b39197101af38676",
+                            "title": "导航4",
+                            "titleColor": "#333",
+                            "url": "",
+                            "picUrl": "",
+                            "customStyle": {
+                                "borderRadius": "4px",
+                                "borderWidth": "1px",
+                                "borderColor": "#EBEBEB",
+                                "backgroundColor": "transparent",
+                                "boxShadow": "none"
+                            }
+                        }
+                    ],
+                    "dataType": "specific",
+                    "datasource": {},
+                    "gap": "10px 10px",
+                    "navHeight": 70,
+                    "customStyle": {},
+                    "isUseCustomStyle": true
+                },
+                "x-errors": [],
+                "x-designable-id": "pkr07iy6d23",
+                "x-index": 8
+            }
+        },
+        "x-designable-id": "84w3op2rzyi"
+    }
+}
